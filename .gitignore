@@ -5,7 +5,7 @@ setuptools-0.6c9-py2.5.egg
 bin/
 build/
 include/
-lib/
+/lib/
 share/
 src/
 *.pyc
