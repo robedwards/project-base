@@ -18,6 +18,6 @@ urlpatterns = patterns('',
 	url(r'^static/(.*)$', 'django.views.static.serve', {'document_root': path.abspath(path.dirname(__file__)) + '/static', 'show_indexes': True}),
 
 	# Admin stuff.
-	url(r'^admin/', include(admin.site.urls)),
 	url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+	url(r'^admin/', include(admin.site.urls)),	
 )
